@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Navigation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <div class="logo">NR512</div>
+        </div>
+        
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">
+                        <span class="link-text">Home</span>
+                        <span class="link-hover"></span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#services" class="nav-link">
+                        <span class="link-text">Services</span>
+                        <span class="link-hover"></span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-content">
+                            <a href="#bim" class="dropdown-link">BIM Design</a>
+                            <a href="#3d" class="dropdown-link">2D/3D Development</a>
+                            <a href="#web" class="dropdown-link">Web Development</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">
+                        <span class="link-text">Projects</span>
+                        <span class="link-hover"></span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">
+                        <span class="link-text">Contact</span>
+                        <span class="link-hover"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+
+        <!-- Mobile Menu Overlay -->
+        <div class="mobile-menu">
+            <div class="mobile-menu-content">
+                <!-- Mobile menu items will be cloned here via JavaScript -->
+            </div>
+        </div>
+    </nav>
+
+    <section class="services-showcase">
+        <div class="services-container">
+            <div class="services-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Discover what we can do for you</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- BIM Design Service -->
+                <div class="service-card" data-service="bim">
+                    <div class="service-content">
+                        <div class="service-image-container">
+                            <img src="/img/bim.jpg" alt="BIM Design" class="service-image">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="service-info">
+                            <h3>BIM Design</h3>
+                            <p>Professional Building Information Modeling solutions</p>
+                            <ul class="service-features">
+                                <li>3D Modeling</li>
+                                <li>Construction Documentation</li>
+                                <li>Clash Detection</li>
+                            </ul>
+                            <button class="explore-btn">Explore More</button>
+                        </div>
+                    </div>
+                    <div class="service-details">
+                        <div class="details-content">
+                            <h4>BIM Design Excellence</h4>
+                            <p>Comprehensive BIM solutions for modern construction needs.</p>
+                            <div class="details-gallery">
+                                <img src="/api/placeholder/300/200" alt="BIM Project 1">
+                                <img src="/api/placeholder/300/200" alt="BIM Project 2">
+                                <img src="/api/placeholder/300/200" alt="BIM Project 3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3D Development Service -->
+                <div class="service-card" data-service="3d">
+                    <div class="service-content">
+                        <div class="service-image-container">
+                            <img src="/img/design.jpg"3D Development" class="service-image">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="service-info">
+                            <h3>3D Development</h3>
+                            <p>Creating immersive 3D experiences</p>
+                            <ul class="service-features">
+                                <li>Architectural Visualization</li>
+                                <li>Product Modeling</li>
+                                <li>Animation</li>
+                            </ul>
+                            <button class="explore-btn">Explore More</button>
+                        </div>
+                    </div>
+                    <div class="service-details">
+                        <div class="details-content">
+                            <h4>3D Development Solutions</h4>
+                            <p>Bringing ideas to life through advanced 3D modeling.</p>
+                            <div class="details-gallery">
+                                <img src="/api/placeholder/300/200" alt="3D Project 1">
+                                <img src="/api/placeholder/300/200" alt="3D Project 2">
+                                <img src="/api/placeholder/300/200" alt="3D Project 3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Development Service -->
+                <div class="service-card" data-service="web">
+                    <div class="service-content">
+                        <div class="service-image-container">
+                            <img src="/img/deve.jpg" alt="Web Development" class="service-image">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="service-info">
+                            <h3>Web Development</h3>
+                            <p>Modern web solutions for your business</p>
+                            <ul class="service-features">
+                                <li>Responsive Design</li>
+                                <li>Custom Applications</li>
+                                <li>E-commerce Solutions</li>
+                            </ul>
+                            <button class="explore-btn">Explore More</button>
+                        </div>
+                    </div>
+                    <div class="service-details">
+                        <div class="details-content">
+                            <h4>Web Development Excellence</h4>
+                            <p>Creating powerful web experiences that drive results.</p>
+                            <div class="details-gallery">
+                                <img src="/api/placeholder/300/200" alt="Web Project 1">
+                                <img src="/api/placeholder/300/200" alt="Web Project 2">
+                                <img src="/api/placeholder/300/200" alt="Web Project 3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ <!--nasser el kafyf ouaata tele:+212 708551363 'I found my strength in solitude; every line of code is now a step closer to mastery. ' -->
+    <script src="main.js"></script>
+</body>
+</html>
