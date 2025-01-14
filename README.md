@@ -1,5 +1,5 @@
 👋 Hi, I’m nasser elkafif
-I’m passionate about programming and self-education, constantly learning and finding real-life solutions through code.
+I’m passionate about programming , constantly learning and finding real-life solutions through code.
 
 👀 Interested in solving problems and exploring new technologies.
 🌱 Currently learning new programming skills and frameworks.
