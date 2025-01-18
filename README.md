@@ -1,4 +1,4 @@
-👋 Hi, I’m nasser elkafif
+👋 Hi, I’m nasser elka
  , constantly learning and finding real-life solutions through code.
 
 👀 Interested in solving problems and exploring new technologies.
