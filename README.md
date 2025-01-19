@@ -1,8 +1,3 @@
-👋 Hi, I’m nasser elka
- , constantly learning and finding real-life solutions through code.
 
-👀 Interested in solving problems and exploring new technologies.
-🌱 Currently learning new programming skills and frameworks.
-💞️ Open to collaborating on practical, problem-solving projects.
-📫 Reach me via GitHub: @nr512
-⚡ Fun fact: I love combining logic and creativity to build meaningful projects.
+Passionate problem-solver focused on developing practical solutions through code. Continuously expanding expertise in modern technologies and frameworks.
+Open to collaboration on impactful projects.
